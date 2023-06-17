@@ -1,0 +1,16 @@
+h3 {
+    color : black;
+}
+.product-grid {
+    background-color: skyblue;
+    width: 100%;
+    justify-content: center; /* Center the grid horizontally */
+    align-items: center; /* Center the grid vertically */
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    background-color: skyblue;
+    justify-content: center;
+}

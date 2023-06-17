@@ -6,3 +6,70 @@
   display: flex;
   flex-direction: column;
 }
+
+.link-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+/*
+
+button {
+  cursor: pointer;
+  transition: all .1s ease;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-weight: 500;
+  font-size: 18px;
+  padding-bottom: 10px;
+  border-bottom: solid 2px transparent;
+  transition: all .2s ease;
+} */
+
+
+/* HIIHIHIHIHIHIHIHI */
+
+.sub-navbar {
+  background-color: #2c4047;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sub-navbar .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub-navbar .row {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.sub-navbar button {
+  background-color: #e6e6e6;
+  color: #333;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sub-navbar button:hover {
+  color: lightseagreen;
+}
+
+.search-bar input {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.search-bar {
+  height: 100%;
+}
+

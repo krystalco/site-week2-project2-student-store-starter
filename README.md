@@ -14,11 +14,11 @@ Check out our [deployed Student Store](https://codepath-student-store-demo.surge
 
 ### Core Features
 
-- [ ] The website displays header, banner, search, product grid, about, contact, and footer section.
-- [ ] The website displays the products at the [GET /store endpoint](https://codepath-store-api.herokuapp.com/store) on initial page load.
-- [ ] Users can click on a category (clothing, food, etc.) to filter the product grid by type.
-- [ ] Users can search for products.
-- [ ] User can click on a product in the grid to navigate to a new page containing additional product details.
+- [X] The website displays header, banner, search, product grid, about, contact, and footer section.
+- [X] The website displays the products at the [GET /store endpoint](https://codepath-store-api.herokuapp.com/store) on initial page load.
+- [X] Users can click on a category (clothing, food, etc.) to filter the product grid by type.
+- [X] Users can search for products.
+- [X] User can click on a product in the grid to navigate to a new page containing additional product details.
 
 ### Stretch Features
 
@@ -27,6 +27,12 @@ Check out our [deployed Student Store](https://codepath-student-store-demo.surge
 - [ ] Users can click the '-' button on a product cart to decrement that product in the shopping cart.
 - [ ] The shopping cart displays a table of products, quantities, subtotal, tax, and total.
 - [ ] Your choice! (Replace this bullet explaining what you implemented. Example: Users can leave ratings for products they have purchased.)
+
+### Video Submission
+<a href="https://www.loom.com/share/7006a251bd844549ad572ccdcc66dda1">
+    <p>Library | Loom - 16 June 2023 - Watch Video</p>
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/7006a251bd844549ad572ccdcc66dda1-with-play.gif">
+  </a>
 
 ## *Week 3* Application Features
 
@@ -44,3 +50,4 @@ Check out our [deployed Student Store](https://codepath-student-store-demo.surge
 - [ ] Build a page in the UI that displays the list of all past orders. The user should be able to click on any individual order to take them to a more detailed page of the transaction.
 - [ ] Allow users to use an input to filter orders by the email of the person who placed the order.
 - [ ] Your choice! (Replace this bullet explaining what you implemented. Example: Users can create a wish list of products they are interested in but not yet ready to purchase.)
+

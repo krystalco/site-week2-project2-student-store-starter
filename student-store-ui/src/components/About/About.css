@@ -1,0 +1,22 @@
+.about {
+    background-color: #2c4047;;
+}
+.about .media {
+    flex: 1; 
+    text-align: right;
+  }
+.about img {
+    max-width: 1000%;
+    height: auto;
+    max-height: 10000px;
+}
+
+.about p {
+    color:white;
+    text-align: center;
+    font-size: large;
+    text-indent: 100px;
+}
+.summary {
+    color: red;
+}

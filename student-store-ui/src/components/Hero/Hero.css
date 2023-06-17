@@ -1,0 +1,40 @@
+/* h1,p {
+    color : white
+} */
+* {
+    box-sizing: border-box;
+}
+.store-icon {
+    width: 120px;
+    height: 120px;
+    margin: 0 105px 0 50px;
+}
+.hero {
+    width: 100%;
+    max-width: 100vw;
+    height: 350px;
+}
+
+div {
+    display: block;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.media {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.hero .content {
+    background-color: skyblue;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 350px;
+}

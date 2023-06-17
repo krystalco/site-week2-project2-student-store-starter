@@ -1,0 +1,32 @@
+/* .footer {
+    background-color: skyblue;
+    color: black;
+  } */
+  
+  .footer .content {
+    display: flex;
+  }
+  
+  .footer .links {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .footer .link-column {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .footer .link-column h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer .link-column ul {
+    list-style: none; 
+    padding: 0;
+  }
+  
+  .footer .link-column ul li {
+    margin-bottom: 5px;
+  }

@@ -1,0 +1,12 @@
+button {
+    cursor: pointer;
+    transition: all .1s ease;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 10px;
+    border-bottom: solid 2px transparent;
+    transition: all .2s ease;
+}
