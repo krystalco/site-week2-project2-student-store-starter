@@ -24,9 +24,6 @@ export default function App() {
   const [searchTerm, setSearchTerm] = useState("")
   const [filteredProducts, setFilteredProducts] = useState(products)
   const [selectedCategory, setSelectedCategory] = useState(false);
-  // const handleProductChange = (event) => {
-  //   setProducts(event.target.value)
-  // }
   
 
   useEffect(() => {
@@ -100,7 +97,9 @@ export default function App() {
       <BrowserRouter>
         <main>
           {/* <Sidebar /> */}
-          <Home 
+  </main>
+  <Routes>
+    <Route exact path = "/" element= {<Home 
           products = {products}
           handleAddItemToCart={handleAddItemToCart}
           handleRemoveItemToCart={handleRemoveItemToCart}
@@ -110,9 +109,7 @@ export default function App() {
           handleSearch = {handleSearch}
           searchTerm = {searchTerm}
           filteredProducts={filteredProducts}
-          />
-  </main>
-  <Routes>
+          />} />
     <Route exact path="/products/:productId" element={<ProductDetail handleAddItemToCart={handleAddItemToCart} handleRemoveItemToCart={handleRemoveItemToCart} />} />
 
   </Routes>
