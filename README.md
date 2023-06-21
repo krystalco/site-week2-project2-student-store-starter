@@ -29,9 +29,9 @@ Check out our [deployed Student Store](https://codepath-student-store-demo.surge
 - [ ] Your choice! (Replace this bullet explaining what you implemented. Example: Users can leave ratings for products they have purchased.)
 
 ### Video Submission
-<a href="https://www.loom.com/share/7006a251bd844549ad572ccdcc66dda1">
-    <p>Library | Loom - 16 June 2023 - Watch Video</p>
-    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/7006a251bd844549ad572ccdcc66dda1-with-play.gif">
+<a href="https://www.loom.com/share/76c008f8de3e49dd9ffaf6f90aae3395">
+    <p>Student Store - 20 June 2023 - Watch Video</p>
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/76c008f8de3e49dd9ffaf6f90aae3395-with-play.gif">
   </a>
 
 ## *Week 3* Application Features

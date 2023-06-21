@@ -39,13 +39,13 @@ export default function App() {
 
   const handleAddItemToCart = (productId) => {
     let item = shoppingCart.find((item) => item.itemId === productId)
-    //check if product is still in shopping cart
+    //check if product is still in shopping cart.
     if (item) {
-    //if it's already there, increase its quantity by 1
+    //if it's already there, increase its quantity by 1.
       item.quantity++;
     }
     else {
-    //if it there add it to shopping cart and set its quantity to 1
+    //if it there add it to shopping cart and set its quantity to 1.
       const newItem = {
         itemId : productId,
         quantity : 1
