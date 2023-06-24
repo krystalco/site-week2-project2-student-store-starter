@@ -3,7 +3,7 @@ import ProductCard from "../ProductCard/ProductCard";
 import axios from "axios";
 import { Link } from "react-router-dom";
 
-export default function ProductGrid({products=[], handleAddItemToCart, handleRemoveItemToCart}) {
+export default function ProductGrid({products=[], handleAddItemToCart, handleRemoveItemToCart, getQuantity}) {
     return (
         <div className="product-grid">
             {/* <div className="content"> */}
@@ -13,10 +13,10 @@ export default function ProductGrid({products=[], handleAddItemToCart, handleRem
                     key = {product.name}
                     product = {product}
                     productId={product.id}
-                    quantity= {0}
-                    handleAddItemToCart={() => handleAddItemToCart(product.id)}
-                    handleRemoveItemToCart={() => handleRemoveItemToCart(product.id)}
                     showDescription={false}
+                    handleAddItemToCart = {handleAddItemToCart}
+                    handleRemoveItemToCart = {handleRemoveItemToCart}
+                    getQuantity = {getQuantity}
                 /> ))}
                 </div>
             {/* </div> */}

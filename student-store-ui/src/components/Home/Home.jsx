@@ -14,7 +14,7 @@ import ProductDetail from "../ProductDetail/ProductDetail";
  
 
 
-export default function Home({products, handleAddItemToCart, handleRemoveItemToCart, handleCategoryFilter, setSelectedCategory, selectedCategory, handleSearch, searchTerm, filteredProducts}) {
+export default function Home({products,handleCategoryFilter, setSelectedCategory, selectedCategory, handleSearch, searchTerm, filteredProducts, handleAddItemToCart, handleRemoveItemToCart, getQuantity}) {
   
   return (
     <div className="home">
@@ -41,6 +41,7 @@ export default function Home({products, handleAddItemToCart, handleRemoveItemToC
       products = {searchTerm ? filteredProducts : (selectedCategory ? filteredProducts : products)}
       handleAddItemToCart = {handleAddItemToCart}
       handleRemoveItemToCart = {handleRemoveItemToCart}
+      getQuantity = {getQuantity}
     />
     <About/>
     <ContactUs/>

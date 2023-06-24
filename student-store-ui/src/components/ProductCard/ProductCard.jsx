@@ -1,9 +1,11 @@
 import ProductDetail from "../ProductDetail/ProductDetail";
 import "./ProductCard.css"
 import { Routes, Route, Link, BrowserRouter } from "react-router-dom";
+import { useState } from "react";
 
 
-export default function ProductCard({product, productId, quantity, handleAddItemToCart, handleRemoveItemToCart, showDescription}) {
+
+export default function ProductCard({product, productId, showDescription, handleAddItemToCart, handleRemoveItemToCart, getQuantity}) {
     return (
         <div className="product-card">
             <div className="media">
@@ -13,25 +15,25 @@ export default function ProductCard({product, productId, quantity, handleAddItem
       </div>
       <div className="product-details">
       <h4 className="product-name">{product.name}</h4>
-        <p className="product-price">{product.price}</p>
+        <p className="product-price">{`$${product.price}`}</p>
         {showDescription && (
           <p className="product-description">{product.description}</p>
         )}
         </div>
 
         <div className="buttons">
-          <button className="add" onClick={handleAddItemToCart(productId)}> {/* handleAddItemToCart(productId) */}
-            Add
+          <button className="add" onClick={() => handleAddItemToCart(product)}> {/* handleAddItemToCart(productId) */}
+            +
           </button>
-          <button className="remove" onClick={handleRemoveItemToCart(productId)}>
-            Remove
+          <button className="remove" onClick={() => handleRemoveItemToCart(product)}>
+            -
           </button>
-          {quantity > 0 && (
-            <span className="product-quantity">{quantity}</span>
-          )}
+          {getQuantity(product) > 0 && ( 
+             <span className="product-quantity">{getQuantity(product)}</span> 
+           )}
         </div>
                 </div>
 
 
     )
-}
+  }
