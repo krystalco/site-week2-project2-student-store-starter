@@ -15,7 +15,7 @@ export default function ProductCard({product, productId, showDescription, handle
       </div>
       <div className="product-details">
       <h4 className="product-name">{product.name}</h4>
-        <p className="product-price">{`$${product.price}`}</p>
+        <p className="product-price">{`$${product.price.toFixed(2)}`}</p>
         {showDescription && (
           <p className="product-description">{product.description}</p>
         )}

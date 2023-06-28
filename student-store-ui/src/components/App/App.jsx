@@ -21,8 +21,6 @@ export default function App() {
   const [searchTerm, setSearchTerm] = useState("")
   const [filteredProducts, setFilteredProducts] = useState(products)
   const [selectedCategory, setSelectedCategory] = useState(false);
-  // const [totalPrice, setTotalPrice] = useState(0)
-  // const [prevTotalPrice, setPrevTotalPrice] = useState(0)
   const totalPriceRef = useRef(0)
   const [checkOutIsPressed, setCheckOutIsPressed] = useState(false)
 
